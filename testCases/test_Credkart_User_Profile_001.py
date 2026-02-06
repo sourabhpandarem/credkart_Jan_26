@@ -100,7 +100,7 @@ class Test_User_Profile :
 
         # email_id = "Credencetest@test.com"
         # pass_word = "Credence@123"
-        self.lp = Login_Page_Class(self.driver) # login page class object and now we can access the methods
+        self.lp = Login_Page_Class(self.driver) # login page class object, and now we can access the methods
 
         # Enter Username
         # email = self.driver.find_element(By.XPATH, "//input[@id='email']")
@@ -214,7 +214,7 @@ class Test_User_Profile :
             assert False, "User Registration Fail"
         self.log.info(f"Testcase test_Credkart_registration_003 is completed")
 
-# pytest -v -s -n=auto --html=Html_reports\my_report_28th_jan_2026.html
+# pytest -v -s -n=auto --html=Html_reports\my_report_31th_jan_2026.html
 # pytest -v -s -n=auto --html=Html_reports\my_report_28th_jan_2026.html --alluredir=AllureReports
 
 
@@ -238,7 +238,7 @@ class Test_User_Profile :
 
 
 # 30th Jan 2026--> Orange HRM
-# 6 am to 9 am
+# 6 am to 9 ams
 
 # 1st Feb --> Hr session
 # 2nd Feb --> Hr session
